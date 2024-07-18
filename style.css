@@ -9,6 +9,12 @@ header{
 a,p{
     color: #FFFFFF;
 }
+ul{
+    list-style: none;
+}
+.sem-sublinhado{
+    text-decoration: none;
+}
 body{
     background-color: #CAADE6;
 }
@@ -22,14 +28,14 @@ h1{
 #my-color{
     color: #610588;
 }
-h2{
-    color: #FFFFFF;
-    text-align: center;
-}
 #my-div{
     background-color: #610588;
     margin: 0 -9px;
     padding: 50px;
+}
+h2{
+    color: #FFFFFF;
+    text-align: center;
 }
 footer{
     text-align: center;
