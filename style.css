@@ -1,6 +1,10 @@
-
+* {
+    font-family: "Nunito", sans-serif;
+}
 header{
     background-color: #610588;
+    margin: -9px -9px 0 -9px;
+    padding-left: 50px;
 }
 a,p{
     color: #FFFFFF;
@@ -12,6 +16,9 @@ h1{
     color: #610588;
     text-align: center;
 }
+#bottom{
+    padding: 0 50px 50px 50px;
+}
 #my-color{
     color: #610588;
 }
@@ -21,10 +28,15 @@ h2{
 }
 #my-div{
     background-color: #610588;
+    margin: 0 -9px;
+    padding: 50px;
 }
 footer{
     text-align: center;
     color: #FFFFFF;
+    font-size: 0.7rem;
     background-color: #AA79DC;
+    margin: 0 -9px -9px -9px;
+    padding: 10px;
 }
 
