@@ -30,6 +30,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
 }
 body{
     background-color: #CAADE6;
@@ -42,6 +43,9 @@ h1{
     text-align: center;
     font-size: 50px;
 }
+.titulo{
+    margin: 0;
+}
 #section1{
     display: flex;
     flex-direction: row;
@@ -52,6 +56,7 @@ h1{
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
+    margin: 0;
 }
 .adaptelas{
     display: flex;
