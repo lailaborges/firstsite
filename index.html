@@ -10,16 +10,18 @@
 <body>
     <header>
         <div class="canto-esquerdo">
-            <img src="./imagens/logo_nav.png" alt="Logo da Adapti">
+            <a href="#">
+                <img src="./imagens/logo_nav.png" alt="Logo da Adapti" class="logonav">
+            </a>
         </div>
         <div class="canto-direito">
             <nav>
                 <ul>
-                    <li><a href="#section1">Início</a></li> 
-                    <li><a href="#section2">Sobre nós</a></li>
-                    <li><a href="https://adapti.info/#servicos">Serviços</a></li>
-                    <li><a href="https://adapti.info/#portfolio">Portifólio</a></li>
-                    <li><a href="https://adapti.info/blog">Blog</a></li>
+                    <li class="links"><a href="#section1">Início</a></li> 
+                    <li class="links"><a href="#section2">Sobre nós</a></li>
+                    <li class="links"><a href="https://adapti.info/#servicos">Serviços</a></li>
+                    <li class="links"><a href="https://adapti.info/#portfolio">Portifólio</a></li>
+                    <li class="links"><a href="https://adapti.info/blog">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,15 +35,15 @@
                 </p>
             </div>
             <div id="mulher">
-                <img src="./imagens/body.png" alt="Moça em pé olhando para o horizonte de oportunidades">
+                <img src="./imagens/body.png" alt="Moça em pé olhando para o horizonte de oportunidades" class="imagens">
             </div>
         </section>
         <section id = "section2">
             <div class="canto-esquerdo">
-                <img src="./imagens/logo_footer.png" alt="Logo da Adapti" width="200" height="120">
+                <img src="./imagens/logo_footer.png" alt="Logo da Adapti" class="logofooter">
             </div>
             <div class="adaptelas">
-                <h2>Sobre a Adapti</h2>
+                <h2 class="titulo">Sobre a Adapti</h2>
                 <p>
                     A Adapti é uma empresa júnior com o foco em desenvolvimento de Sites e Sistemas web. Buscamos sempre ajudar pequenas e médias empresas a crescer e otimizar os seus processos, por meio de soluções digitais.
                 </p>
@@ -49,7 +51,12 @@
         </section>
     </main>
     <footer>
-        <span>Desenvolvido em 2024</span> <b>Adapti</b> - <b>Soluções web</b>
+        <div>
+            <span>Desenvolvido em 2024</span>
+        </div>
+        <div>
+            <b>Adapti</b> - <b>Soluções web</b>
+        </div>
     </footer>
 </body>
 </html>
